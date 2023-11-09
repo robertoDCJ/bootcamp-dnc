@@ -254,3 +254,52 @@ footer .linha2 a:first-child {
 footer .linha2 a:hover {
     color: var(--cinza-hover);
 }
+
+@media only screen and (max-width: 600px) {
+   
+    /* MENU */
+   
+    #principal {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    #menu a {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    #principal button {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* SECTION */
+
+    section h1 {
+        font-size: 38px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    /* FORM */
+
+    form {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkbox-itens label {
+        font-size: 15px;
+    }
+}
