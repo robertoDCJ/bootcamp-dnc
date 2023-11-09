@@ -230,3 +230,27 @@ footer .endereco {
     text-align: center;
     width: 20%;
 }
+
+footer .linha2 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+}
+
+footer .linha2 a{
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer .linha2 a:first-child {
+    border-right: 3px solid white;
+}
+
+footer .linha2 a:hover {
+    color: var(--cinza-hover);
+}
